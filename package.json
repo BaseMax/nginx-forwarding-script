@@ -2,6 +2,11 @@
   "name": "forwarder-script",
   "module": "src/index.ts",
   "type": "module",
+  "scripts": {
+    "update": "bun src/index.ts",
+    "restart": "systemctl restat nginx",
+    "reload": "systemctl reload nginx"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
