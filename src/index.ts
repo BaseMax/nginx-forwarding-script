@@ -1,4 +1,4 @@
-import { config } from './config';
+import { config } from './configRoutes';
 import { generateAllConfigs } from './generateNginxConfig';
 
 generateAllConfigs(config);
