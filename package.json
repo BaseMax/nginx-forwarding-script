@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "update": "bun src/index.ts",
-    "restart": "systemctl restart nginx",
+    "test": "nginx -t",
+    "restart": "nginx -t && systemctl restart nginx",
     "reload": "systemctl reload nginx"
   },
   "devDependencies": {
