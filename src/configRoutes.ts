@@ -11,6 +11,7 @@ export const config: { ports: PortConfig[] } = {
                 { method: 'POST', path: '/v1/verifycode', target: '127.0.0.1:30031' },
                 { method: 'POST', path: '/v1/getforgetcode', target: '127.0.0.1:30031' },
                 { method: 'POST', path: '/v1/resendactive', target: '127.0.0.1:30031' },
+                { method: 'POST', path: '/v1/activeuser', target: '127.0.0.1:30031' },
             ]
         },
         {
